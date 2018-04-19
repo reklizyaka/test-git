@@ -1,0 +1,51 @@
+.content-wrapper {
+    max-width: 1366px;
+    margin: 0 auto;
+    background-color: gray;
+    height: 100vh;
+}
+
+.header {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 170px;
+    align-items: center;
+}
+
+.header .logo {
+    width: 355px;
+    height: 65px;
+    background-color: #000000;
+}
+
+.header .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    max-width: 580px;
+    justify-content: space-between;
+}
+
+.header .menu .menu-item {
+    font-size: 15px;
+font-weight: 400;
+text-transform: uppercase;
+    color: #ffffff;
+}
+
+.main-section {
+    padding: 30px 80px;
+    border: 5px solid green;
+    border-radius: 30px;
+}
+
+.main-section .inner-element {
+    display: flex;
+}
+
+.main-section .number, .main-section .semicolon {
+    font-size: 130px;
+    
+}
